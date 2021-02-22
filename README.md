@@ -8,6 +8,10 @@ Clone repo and create as an Azure Function (vs code makes this easy).
 
 ## Usage
 In Postman or your custom code, simply make a POST request to the azure function endpoint.
+Ensure you're passing a JSON object with the following properties:
+* client_id
+* client_secret
+* tenant_id
 
 ![Postman Screenshot](/img/postman_demo.png?raw=true "Optional Title")
 
