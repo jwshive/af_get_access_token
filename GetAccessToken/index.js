@@ -16,7 +16,8 @@ module.exports = async function (context, req) {
     .post(`https://login.microsoftonline.com/${req.body.tenant_id}/oauth2/token`, qs.stringify(postData))
     .then(response => {
       context.res = {
-        body: response.data.access_token
+        body: {access_token: response.data.access_token},
+        headers: {'Content-Type': 'application/json'}
       }
 
     })
