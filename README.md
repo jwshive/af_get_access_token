@@ -12,6 +12,7 @@ Ensure you're passing a JSON object with the following properties:
 * client_id
 * client_secret
 * tenant_id
+* resource [ex: 'https://graph.microsoft.com/.default' or 'https://management.azure.com/']
 
 ![Postman Screenshot](/img/postman_demo.png?raw=true "Optional Title")
 
