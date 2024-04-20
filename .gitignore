@@ -102,3 +102,4 @@ proxies.json
 local.settings.json
 test
 tsconfig.json
+.idea
